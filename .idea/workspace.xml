@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13acf54-dce7-4342-9ee1-0139c4fdba26" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayone/arrays/ArrayRotationClockAntiClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayone/arrays/Equilibrium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayone/arrays/FindMaxSumSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayone/arrays/PreFixNSufFixSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="e13acf54-dce7-4342-9ee1-0139c4fdba26" name="Changes" comment="Array problems">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayone/arrays/ChocolateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayone/arrays/CoinByGreedy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayone/arrays/GoldWiresByGreedy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayone/arrays/InversionCountOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/daytwo/divncon/FindMinMissingByDC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,32 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ArrayRotationClockAntiClock">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
-      <module name="PavithraDataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayRotationClockAntiClock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dayone.arrays.ArrayRotationClockAntiClock" />
+}</component>
+  <component name="RunManager" selected="Application.FindMinMissingByDC">
+    <configuration name="ChocolateFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dayone.arrays.ChocolateFactory" />
       <module name="PavithraDataStructure" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Equilibrium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dayone.arrays.Equilibrium" />
+    <configuration name="CoinByGreedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dayone.arrays.CoinByGreedy" />
       <module name="PavithraDataStructure" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +75,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMaxSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dayone.arrays.FindMaxSumSubArray" />
+    <configuration name="FindMinMissingByDC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.daytwo.divncon.FindMinMissingByDC" />
+      <module name="PavithraDataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.daytwo.divncon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoldWiresByGreedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dayone.arrays.GoldWiresByGreedy" />
       <module name="PavithraDataStructure" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreFixNSufFixSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dayone.arrays.PreFixNSufFixSum" />
+    <configuration name="InversionCountOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dayone.arrays.InversionCountOfArray" />
       <module name="PavithraDataStructure" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayRotationClockAntiClock" />
-        <item itemvalue="Application.Equilibrium" />
-        <item itemvalue="Application.FindMaxSumSubArray" />
-        <item itemvalue="Application.PreFixNSufFixSum" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.FindMinMissingByDC" />
+        <item itemvalue="Application.GoldWiresByGreedy" />
+        <item itemvalue="Application.CoinByGreedy" />
+        <item itemvalue="Application.ChocolateFactory" />
+        <item itemvalue="Application.InversionCountOfArray" />
       </list>
     </recent_temporary>
   </component>
@@ -139,6 +133,14 @@
       <option name="presentableId" value="Default" />
       <updated>1702615074111</updated>
     </task>
+    <task id="LOCAL-00001" summary="Array problems">
+      <created>1702621040321</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702621040321</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,5 +153,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Array problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array problems" />
   </component>
 </project>
