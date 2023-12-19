@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13acf54-dce7-4342-9ee1-0139c4fdba26" name="Changes" comment="Array problems">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayone/arrays/ChocolateFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayone/arrays/CoinByGreedy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayone/arrays/GoldWiresByGreedy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayone/arrays/InversionCountOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/daytwo/divncon/FindMinMissingByDC.java" afterDir="false" />
+    <list default="true" id="e13acf54-dce7-4342-9ee1-0139c4fdba26" name="Changes" comment="Array Over, DC started">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/daytwo/divncon/ClimbingStairsDC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/daytwo/divncon/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,13 +46,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindMinMissingByDC">
-    <configuration name="ChocolateFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dayone.arrays.ChocolateFactory" />
+  <component name="RunManager" selected="Application.ClimbingStairsDC">
+    <configuration name="ClimbingStairsDC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.daytwo.divncon.ClimbingStairsDC" />
       <module name="PavithraDataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.dayone.arrays.*" />
+          <option name="PATTERN" value="org.example.daytwo.divncon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InversionCountOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dayone.arrays.InversionCountOfArray" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.daytwo.divncon.MergeSort" />
       <module name="PavithraDataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.dayone.arrays.*" />
+          <option name="PATTERN" value="org.example.daytwo.divncon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClimbingStairsDC" />
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.FindMinMissingByDC" />
         <item itemvalue="Application.GoldWiresByGreedy" />
         <item itemvalue="Application.CoinByGreedy" />
-        <item itemvalue="Application.ChocolateFactory" />
-        <item itemvalue="Application.InversionCountOfArray" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702621040321</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Array Over, DC started">
+      <created>1702880245207</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702880245207</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +161,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Array problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array problems" />
+    <MESSAGE value="Array Over, DC started" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array Over, DC started" />
   </component>
 </project>
