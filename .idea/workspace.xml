@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13acf54-dce7-4342-9ee1-0139c4fdba26" name="Changes" comment="Array Over, DC started">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/daytwo/divncon/ClimbingStairsDC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/daytwo/divncon/MergeSort.java" afterDir="false" />
+    <list default="true" id="e13acf54-dce7-4342-9ee1-0139c4fdba26" name="Changes" comment="DC Ended">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayfour/dpdc/CountPhraseInStrAsSeq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayfour/dpdc/JumpGameVI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayfour/dpdc/TowerOfHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayfour/dpdc/WordBreak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ClimbingStairsDC">
+  <component name="RunManager" selected="Application.WordBreak">
     <configuration name="ClimbingStairsDC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.daytwo.divncon.ClimbingStairsDC" />
       <module name="PavithraDataStructure" />
@@ -60,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoinByGreedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dayone.arrays.CoinByGreedy" />
+    <configuration name="CountPhraseInStrAsSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dayfour.dpdc.CountPhraseInStrAsSeq" />
       <module name="PavithraDataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.dayone.arrays.*" />
+          <option name="PATTERN" value="org.example.dayfour.dpdc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinMissingByDC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.daytwo.divncon.FindMinMissingByDC" />
+    <configuration name="JumpGameVI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dayfour.dpdc.JumpGameVI" />
       <module name="PavithraDataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.daytwo.divncon.*" />
+          <option name="PATTERN" value="org.example.dayfour.dpdc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoldWiresByGreedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dayone.arrays.GoldWiresByGreedy" />
+    <configuration name="TowerOfHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dayfour.dpdc.TowerOfHanoi" />
       <module name="PavithraDataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.dayone.arrays.*" />
+          <option name="PATTERN" value="org.example.dayfour.dpdc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.daytwo.divncon.MergeSort" />
+    <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dayfour.dpdc.WordBreak" />
       <module name="PavithraDataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.daytwo.divncon.*" />
+          <option name="PATTERN" value="org.example.dayfour.dpdc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordBreak" />
+        <item itemvalue="Application.TowerOfHanoi" />
+        <item itemvalue="Application.CountPhraseInStrAsSeq" />
+        <item itemvalue="Application.JumpGameVI" />
         <item itemvalue="Application.ClimbingStairsDC" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.FindMinMissingByDC" />
-        <item itemvalue="Application.GoldWiresByGreedy" />
-        <item itemvalue="Application.CoinByGreedy" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702880245207</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DC Ended">
+      <created>1702972650019</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702972650019</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +170,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Array problems" />
     <MESSAGE value="Array Over, DC started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array Over, DC started" />
+    <MESSAGE value="DC Ended" />
+    <option name="LAST_COMMIT_MESSAGE" value="DC Ended" />
   </component>
 </project>
