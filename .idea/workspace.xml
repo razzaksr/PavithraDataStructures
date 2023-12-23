@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e13acf54-dce7-4342-9ee1-0139c4fdba26" name="Changes" comment="DC Ended">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayfour/dpdc/CountPhraseInStrAsSeq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayfour/dpdc/JumpGameVI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayfour/dpdc/TowerOfHanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayfour/dpdc/WordBreak.java" afterDir="false" />
+    <list default="true" id="e13acf54-dce7-4342-9ee1-0139c4fdba26" name="Changes" comment="DP Ongoing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayfour/dpdc/Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dayfour/dpdc/OptimalSeat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,20 +45,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WordBreak">
-    <configuration name="ClimbingStairsDC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.daytwo.divncon.ClimbingStairsDC" />
-      <module name="PavithraDataStructure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.daytwo.divncon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Knapsack">
     <configuration name="CountPhraseInStrAsSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.dayfour.dpdc.CountPhraseInStrAsSeq" />
       <module name="PavithraDataStructure" />
@@ -74,8 +59,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JumpGameVI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dayfour.dpdc.JumpGameVI" />
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dayfour.dpdc.Knapsack" />
+      <module name="PavithraDataStructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dayfour.dpdc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptimalSeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dayfour.dpdc.OptimalSeat" />
       <module name="PavithraDataStructure" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Knapsack" />
+        <item itemvalue="Application.OptimalSeat" />
         <item itemvalue="Application.WordBreak" />
         <item itemvalue="Application.TowerOfHanoi" />
         <item itemvalue="Application.CountPhraseInStrAsSeq" />
-        <item itemvalue="Application.JumpGameVI" />
-        <item itemvalue="Application.ClimbingStairsDC" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702972650019</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DP Ongoing">
+      <created>1703226071917</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703226071917</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,6 +176,7 @@
     <MESSAGE value="Array problems" />
     <MESSAGE value="Array Over, DC started" />
     <MESSAGE value="DC Ended" />
-    <option name="LAST_COMMIT_MESSAGE" value="DC Ended" />
+    <MESSAGE value="DP Ongoing" />
+    <option name="LAST_COMMIT_MESSAGE" value="DP Ongoing" />
   </component>
 </project>
